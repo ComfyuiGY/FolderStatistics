@@ -31,7 +31,7 @@ except Exception as e:
             return {"required": {}}
         RETURN_TYPES = ()
         FUNCTION = "dummy"
-        CATEGORY = "📁 文件工具"
+        CATEGORY = "📁 图像数量统计"  # 改为与实际节点分类一致
         def dummy(self):
             return ()
     
